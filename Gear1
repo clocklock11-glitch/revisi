@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Detail Produk</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #111;
+  color: white;
+}
+
+/* animasi masuk */
+.container {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeUp 0.8s ease forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card {
+  max-width: 500px;
+  margin: 50px auto;
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* animasi hover */
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+
+.back {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.back:hover {
+  background: orange;
+}
+
+--------------------------------------------------
+.keunggulan {
+  max-width: 500px;
+  font-family: Arial;
+}
+
+.keunggulan h3 {
+  margin-bottom: 10px;
+}
+
+.keunggulan ol {
+  padding-left: 20px;
+}
+
+.keunggulan li {
+  margin-bottom: 12px;
+}
+
+.keunggulan li p {
+  margin: 5px 0 0;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+----------------------------------------------------
+
+
+.spesifikasi {
+  max-width: 500px;
+  font-family: Arial;
+}
+
+.spesifikasi h3 {
+  margin-bottom: 10px;
+}
+
+.spesifikasi ol {
+  padding-left: 20px;
+}
+
+.spesifikasi li {
+  margin-bottom: 12px;
+}
+ 
+.spesifikasi li p {
+  margin: 5px 0 0;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+--------------------------------------------------
+.deskripsi {
+  max-width: 500px;
+  font-family: Arial;
+}
+
+.deskripsi h3 {
+  margin-bottom: 10px;
+}
+
+.deskripsi {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.deskripsi li {
+  margin-bottom: 12px;
+}
+ 
+.deskripsi li p {
+  margin: 5px 0 0;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+-------------------------------------------------
+.khusus {
+  max-width: 500px;
+  font-family: Arial;
+}
+
+.khusus h3 {
+  margin-bottom: 10px;
+}
+
+.khusus li {
+  
+  margin-left: 20px;
+  padding-right: 4px;
+}
+
+
+ 
+.khusus li b {
+  margin: 0px 0 0;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+------------------------------------------------------
+
+
+.rekomendasi {
+  padding-left: 0px;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="card">
+
+    <img src="img/gear.png" style="">
+
+    <h2>Gear Oil 10W-40 (100ml)</h2>
+
+    <div class="deskripsi">
+        <h3><strong>Deskripsi Umum</strong></h3>
+            <p style="text-align: justify;"> Nichi Oil Gear Oil 10W-40 merupakan Oli Garden berkualitas tinggi yang diformulasikan dengan teknologi <strong>API SN & JASO MB</strong> dan sudah Fully Synthetic serta dapat memberikan perlindungan maksimal dalam sistem transmisi akhir, khususnya motor matic. Oli ini dirancang khusus untuk komponen <strong>Final Gear Gardan</strong> sehingga mampu mengurangi gesekan antar gear, menjaga kehalusan putaran, serta dapat membantu meningkatkan efisiensi kinerja mesin. </p>
+    </div>
+
+
+<p>________________________________________________________</p>
+
+<div class="spesifikasi">
+  <h3>Spesifikasi Umum</h3>
+   <b>(berdasarkan varian matic 10W-40)</b>
+  <ol>
+    
+    <li>
+      <b>Tipe oli: Fully Synthetic</b>
+    </li>
+
+    <li>
+      <b>SAE: 10W-40</b>
+    </li>
+
+    <li>
+      <b>API SN</b>
+    </li>
+
+    <li>
+      <b>JASO: MB (khusus motor matic CVT)</b>
+    </li>
+
+    <li>
+      <b>Volume: 100ml</b>
+    </li>
+
+    <li>
+      <b>Teknologi utama: Titanium additive</b>
+    </li>
+  </ol>
+</div>
+
+<p>________________________________________________________</p>
+
+<div class="keunggulan">
+  <h3>Keunggulan</h3>
+
+  <ol>
+    <li>
+      🛡️ <b>Perlindungan Mesin Maksimal</b>
+      <p>Titanium bantu mengurangi keausan mesin, cocok untuk mesin kerja berat & harian</p>
+    </li>
+
+    <li>
+      ⚡ <b>Tarikan Lebih Enteng</b>
+      <p>Gesekan lebih kecil → akselerasi lebih responsif</p>
+    </li>
+
+    <li>
+      🌡️ <b>Tahan Panas Tinggi</b>
+      <p>Stabil di kondisi macet / stop & go, tidak cepat encer saat panas</p>
+    </li>
+
+    <li>
+      🧼 <b>Mesin Lebih Bersih</b>
+      <p>Mengurangi sludge & kerak, menjaga performa tetap optimal</p>
+    </li>
+
+    <li>
+      ⛽ <b>Lebih Irit BBM</b>
+      <p>Friction rendah = efisiensi bahan bakar meningkat</p>
+    </li>
+  </ol>
+</div>
+
+<p>________________________________________________________</p>
+<div class="khusus">
+  <h3>Dikhusukan</h3>
+  
+    <li>
+      <b>Motor matic (Beat, Vario, Scoopy, NMAX, Aerox)</b>
+    </li>
+    <li>
+      <b>Pemakaian harian (kerja, ojek, commuting)</b>
+    </li>
+    <li>
+      <b>Kondisi macet kota</b>
+    </li>
+ 
+</div>
+
+<p>________________________________________________________</p>
+<div class="rekomendasi">
+  <h3>Rekomendasi</h3>
+  
+     <p>💡Ganti Oli tiap jarak tempuh 4.000 – 5.000 km</p>
+
+</div>
+
+
+
+   
+
+    <a href="products.html" class="back">← Kembali</a>
+
+  </div>
+</div>
+
+</body>
+</html>
